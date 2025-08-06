@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Lucky Chelani";
+            document.title = "Projects | Portfolio Ashutosh Tiwari";
             $("#favicon").attr("href", "/assets/images/main.png");
         }
         else {

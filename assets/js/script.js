@@ -36,6 +36,21 @@ $(document).ready(function () {
             scrollTop: $($(this).attr('href')).offset().top,
         }, 500, 'linear')
     });
+    
+    // theme toggler
+    $('#theme-toggler').click(function(){
+        $('body').toggleClass('dark-mode');
+        if($('body').hasClass('dark-mode')){
+            localStorage.setItem('theme', 'dark-mode');
+        }else{
+            localStorage.removeItem('theme');
+        }
+    });
+
+    // check for saved theme
+    if(localStorage.getItem('theme') === 'dark-mode'){
+        $('body').addClass('dark-mode');
+    }
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
@@ -59,7 +74,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Lucky Chelani";
+            document.title = "Portfolio | Ashutosh Tiwari";
             $("#favicon").attr("href", "assets/images/main.png");
         }
         else {
@@ -69,9 +84,9 @@ document.addEventListener('visibilitychange',
     });
 
 
-// <!-- typed js effect starts --> android development
+// <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["android development", "backend development", "web designing", "frontend development", "web development"],
+    strings: ["backend development", "web designing", "frontend development", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -107,7 +122,7 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category ).forEach(project => {
+    projects.filter(project => project.category === 'ai/ml' || project.category === 'mern').forEach(project => {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />

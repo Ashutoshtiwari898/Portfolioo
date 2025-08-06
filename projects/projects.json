@@ -1,53 +1,62 @@
 [
   {
-    "name": "Calorie Tracker",
-    "desc": "Flimx is a Film Encyclopaedia, addresses the issue of scattered information by aggregating movie details from trusted sources.",
-    "image": "flimx",
-    "category": "android",
+    "name": "Expense Tracker",
+    "desc": "Built a Next.js, Prisma, Node.js, Express web app for tracking and analyzing expenses with real-time insights.",
+    "image": "expense-tracker",
+    "category": "mern",
     "links": {
-      "view": "https://www.linkedin.com/posts/lucky-chelani_jetpackcompose-kotlin-moviesearch-activity-7193906246230388736-iGaW?utm_source=share&utm_medium=member_desktop",
-      "code": "https://github.com/Lucky-chelani/FlimX"
+      "view": "https://github.com/Ashutoshtiwari898/Expense-Tracker",
+      "code": "https://github.com/Ashutoshtiwari898/Expense-Tracker"
     }
   },
   {
-    "name": "AIBuddy",
-    "desc": "All in one AI Chatbot . Built using Kotlin, Jetpack Compose and Gemini.",
-    "image": "technology",
-    "category": "android",
+    "name": "Internshala Automation Tool",
+    "desc": "Created an automation tool using Puppeteer and Google Generative AI to automate internship searches and applications.",
+    "image": "internshala-automation",
+    "category": "automation",
     "links": {
-      "view": "https://www.linkedin.com/posts/lucky-chelani_aibuddy-jetpackcompose-geminiai-activity-7193302289627963392-IKyy?utm_source=share&utm_medium=member_desktop",
-      "code": "https://github.com/Lucky-chelani/AIBuddy"
+      "view": "https://github.com/Ashutoshtiwari898/Internshala-Automation",
+      "code": "https://github.com/Ashutoshtiwari898/Internshala-Automation"
     }
   },
   {
-    "name": "Weather App",
-    "desc": "Native android app built using Kotlin, Jetpack Compose. Retrofit & Glide dependencies.",
-    "image": "weather",
-    "category": "android",
+    "name": "SIH Hackathon – Tours & Travel Platform",
+    "desc": "Developed a tourism web app during Smart India Hackathon to connect tourists with local guides, using HTML, CSS, JS, Node.js, Express.js.",
+    "image": "sih-tour-and-travel",
+    "category": "mern",
     "links": {
-      "view": "https://www.linkedin.com/posts/lucky-chelani_weathertech-realtimeweather-activity-7192591549187141634-908a?utm_source=share&utm_medium=member_desktop",
-      "code": "https://github.com/Lucky-chelani/WeatherApp"
+      "view": "https://github.com/Ashutoshtiwari898/SIH-Tour-And-Travel",
+      "code": "https://github.com/Ashutoshtiwari898/SIH-Tour-And-Travel"
     }
   },
   {
-    "name": "Banking UI",
-    "desc": "A Banking UI Application based on Jetpack Compose",
-    "image": "bank",
-    "category": "android",
+    "name": "BioVet – Biohealth Monitoring Platform",
+    "desc": "Developed a Hack4Change’24 project for plant and animal disease detection using image analysis and Gemini API.",
+    "image": "biovet",
+    "category": "ai/ml",
     "links": {
-      "view": "https://www.linkedin.com/posts/lucky-chelani_androidapp-bankinginnovation-jetpackcompose-activity-7188527662045224961-Wak0?utm_source=share&utm_medium=member_desktop",
-      "code": "https://github.com/Lucky-chelani/Bank"
+      "view": "https://github.com/Ashutoshtiwari898/Hack4Change-BioVet-Biohealth-Monitoring",
+      "code": "https://github.com/Ashutoshtiwari898/Hack4Change-BioVet-Biohealth-Monitoring"
     }
   },
   {
-    "name": "HealthCare",
-    "desc": "A web3 based Patient Record Managing Website",
-    "image": "health1",
-    "category": "basicweb",
+    "name": "FitnessFreak",
+    "desc": "Gym website that calculates daily workout routines and predicts calorie needs for users.",
+    "image": "fitness-freak",
+    "category": "ai/ml",
     "links": {
-      "view": "https://www.canva.com/design/DAGTtsvz0XI/M26zGaycF0dCX5AMaIalIw/edit",
-      "code": "https://github.com/Lucky-chelani/healthcare"
+      "view": "https://github.com/Ashutoshtiwari898/FitnessFreak",
+    "code": "https://github.com/Ashutoshtiwari898/FitnessFreak"
+    }
+  },
+  {
+    "name": "Expense Tracker",
+    "desc": "Expense Tracker is a web application that allows users to track their expenses and income. It is built with HTML, CSS, and JavaScript.",
+    "image": "expense-tracker",
+    "category": "javascript",
+    "links": {
+      "view": "https://expense-tracker-by-ashutosh.netlify.app/",
+      "code": "https://github.com/Ashutoshtiwari898/Expense-Tracker"
     }
   }
 ]
- 

@@ -252,7 +252,8 @@ header .navbar ul li a:hover{
 }
 .work .desc .btns{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2rem;
   width: 100%;
   margin-top: 2rem;
 }
@@ -264,7 +265,6 @@ header .navbar ul li a:hover{
   font-size: 1.5rem;
   color: #fff;
   background: rgb(12, 12, 12);
-  margin-right: 2rem;
 }
 .work .desc .btns .btn:hover{
   background: #310ae0f5;
