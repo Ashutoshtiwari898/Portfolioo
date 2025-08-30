@@ -479,7 +479,8 @@ header .navbar ul li a:hover {
   }
   .about .row .image img {
     margin: 0 auto;
-    width: 80%;
+    width: 100%; /* Changed from 80% to 100% for better responsiveness */
+    height: auto; /* Added to maintain aspect ratio */
     mix-blend-mode: normal;
   }
   .about .row {

@@ -12,7 +12,7 @@
   {
     "name": "Internshala Automation Tool",
     "desc": "Created an automation tool using Puppeteer and Google Generative AI to automate internship searches and applications.",
-    "image": "internshala-automation",
+    "image": "Internshala",
     "category": "automation",
     "links": {
       "view": "https://github.com/Ashutoshtiwari898/Internshala-Automation",
@@ -22,7 +22,7 @@
   {
     "name": "SIH Hackathon – Tours & Travel Platform",
     "desc": "Developed a tourism web app during Smart India Hackathon to connect tourists with local guides, using HTML, CSS, JS, Node.js, Express.js.",
-    "image": "sih-tour-and-travel",
+    "image": "Tour",
     "category": "mern",
     "links": {
       "view": "https://github.com/Ashutoshtiwari898/SIH-Tour-And-Travel",
@@ -32,7 +32,7 @@
   {
     "name": "BioVet – Biohealth Monitoring Platform",
     "desc": "Developed a Hack4Change’24 project for plant and animal disease detection using image analysis and Gemini API.",
-    "image": "biovet",
+    "image": "Biowet",
     "category": "ai/ml",
     "links": {
       "view": "https://github.com/Ashutoshtiwari898/Hack4Change-BioVet-Biohealth-Monitoring",
@@ -42,7 +42,7 @@
   {
     "name": "FitnessFreak",
     "desc": "Gym website that calculates daily workout routines and predicts calorie needs for users.",
-    "image": "fitness-freak",
+    "image": "Calories",
     "category": "ai/ml",
     "links": {
       "view": "https://github.com/Ashutoshtiwari898/FitnessFreak",
